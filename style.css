@@ -3,35 +3,41 @@
 }
 
 body {
-    padding: 0px; 
-    margin: 0px;
+    padding: auto; 
+    margin: auto;
 }
 
 h1 {
     font-size: 60px;
-    margin: 1px;
-    padding: 1px;
+    margin-top: -200px;
 }
 
 h1,p {
     text-align: center;
     color: #3b3838;
-    margin: 1px;
-    padding: 1px;
-}
-
-.tittle-img-bot {
-    margin-top: -15px;
-    padding-top: 0;
+    margin: auto;
+    padding: 0;
 }
 
 .tittle-img-top {
-    margin-bottom: -30px;
-    padding-bottom: 0px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 80px;
 }
 
+.tittle-img-bot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+
+
 .gif {
-    margin-top: -10px;
+    margin-top: 0;
     margin-bottom: -100px;
     float: inline-end;
 }
@@ -88,10 +94,10 @@ h4 {
   }
 
   footer {
-    position: absolute;
     margin-top: 100px;
     padding: 20px 0px 20px 0px;
-    width: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
     font-size: 15px;
     color: #3b3838;
