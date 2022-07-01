@@ -103,4 +103,40 @@ h4 {
     color: #3b3838;
   }
 
+.container-recipe {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
+.item-description {
+    color: #3b3838;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;   
+}
+
+.item-description p{
+    text-align: center-justify;
+}
+
+.item-description h2 {
+    color: #3b3838;
+    text-align: center;
+    margin: auto;
+}
+
+.item-img img{
+    border-radius: 50%;
+    width: 300px;
+    margin: auto;
+    border: solid #3b3838;
+}
