@@ -63,7 +63,7 @@ h4 {
     transition: 0.3s;;
     width: 250px;
     height: 600px;
-    border-radius: 5px;
+    border-radius: 125px 125px 5px 5px;
     border: solid 1px #3b3838;
     border-color: #3b3838;
 }
@@ -71,13 +71,17 @@ h4 {
   .card img {
     width: 250px;
     height: 250px;
-    border-radius: 5px 5px 0px 0px;
-    border-bottom: solid 1px #3b3838;
+    border-radius: 50%;
+    border: solid 1px #3b3838;
     border-color: #3b3838;
   }
 
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 8px 0;
+  }
+
+#card-description {
+    width: 200px;
   }
 
   .container {
@@ -136,18 +140,16 @@ h4 {
     width: 500px;   
 }
 
-.item-description p{
-    text-align: center-justify;
-}
-
-.item-description h2 {
+.item-description h2,p {
     color: #3b3838;
     text-align: center;
     margin: auto;
+    width: 500px;
 }
 
 .item {
     margin-bottom: 60px;
+    width: 60%;
 }
 
 .item-img img{
@@ -176,6 +178,7 @@ h4 {
 .container-recipe-left {
     display: flex;
     flex-direction: column;
+    padding-right: 30px;
 }
 
 .item-return-button {
